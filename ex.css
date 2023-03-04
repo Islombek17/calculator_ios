@@ -1,0 +1,93 @@
+html, body #fullheigt{
+  background-color: black;
+  min-height: 100% !important;
+  height: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  height: 100%;
+  background-color: black;
+}
+
+.result{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  height: 39%;
+}
+
+.result span{
+  margin-top: 330px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 80px;
+  justify-self: flex-end;
+}
+
+.buttons{
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-size: 30px;
+  color: white;
+  width: 80px;
+  height: 80px;
+  justify-self: center;
+  align-self: center;
+  margin: 5px;
+}
+
+.persent{
+  background-color: #A5A5A5;
+  border: none;
+  color: black;
+}
+
+.item1{
+  background-color: #A5A5A5;
+  color: black;
+  border: none;
+}
+
+.item3{
+  background-color: #ff9f0a;
+  border: none;
+}
+
+.numbers{
+  background-color: #343434;
+  border: none;
+}
+
+.comma{
+  background-color: #343434;
+  border: none;
+}
+.equals{
+  background-color: #ff9f0a;
+  border: none;
+}
+
+.itemZero{
+  background-color: #343434;
+  width: 180px;
+  border-radius: 135px;
+  grid-column: span 2;
+  border: none;
+}
